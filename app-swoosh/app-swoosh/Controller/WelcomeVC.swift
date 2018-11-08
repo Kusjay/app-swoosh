@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
     
     @IBOutlet weak var swoosh: UIImageView!
     @IBOutlet weak var bgImg: UIImageView!
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBAction func unwindFromSkillVC(unwindSgue: UIStoryboardSegue) {
+    @IBAction func unwindFromLeagueVC(unwindSgue: UIStoryboardSegue) {
         
     }
 
