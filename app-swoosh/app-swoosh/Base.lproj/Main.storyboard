@@ -164,7 +164,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="lBr-zQ-XPn" kind="show" id="fJE-Ab-iMa"/>
+                                    <action selector="onNextTapped:" destination="0Es-sq-lhl" eventType="touchUpInside" id="jKe-MB-JtA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4F-Uk-Mc4">
@@ -199,6 +199,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="V4R-J2-ZYe"/>
                     </view>
+                    <connections>
+                        <segue destination="lBr-zQ-XPn" kind="show" identifier="skillVCSegue" id="aoT-Ec-ikC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cLQ-DJ-tFQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Quq-rb-6wE" userLabel="Exit" sceneMemberID="exit"/>
@@ -276,7 +279,7 @@
                                 </constraints>
                                 <state key="normal" backgroundImage="backButton"/>
                                 <connections>
-                                    <segue destination="RT0-tz-5vL" kind="unwind" unwindAction="unwindFromSkillVCWithUnwindSgue:" id="YfZ-P8-aff"/>
+                                    <segue destination="RT0-tz-5vL" kind="unwind" unwindAction="unwindFromSkillVCWithUnwindSgue:" id="f7M-P8-uxh"/>
                                 </connections>
                             </button>
                         </subviews>
